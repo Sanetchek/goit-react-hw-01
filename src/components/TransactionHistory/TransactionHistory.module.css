@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table th {
+  width: 33%;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+.table td {
+  font-size: 18px;
+  padding: 10px 0 10px 50px;
+  border: 1px solid black;
+}
+
+.table td:not(:first-child) {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.table tr:nth-child(2n) {
+  background-color: rgb(205, 205, 205);
+}
