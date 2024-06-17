@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin: 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.online {
+  line-height: 1.5;
+}
+
+.green {
+  composes: online;
+  color: green;
+}
+
+.red {
+  composes: online;
+  color: red;
+}
